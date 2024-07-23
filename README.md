@@ -14,3 +14,7 @@
 
 ## DownLoad_JRA3Q_fcst_phy2m125.sh
 - download JRA-3Q 1.25 degree two-dimensional average diagnostic fields (fcst_phy2m125)
+
+### data Resolution
+- grid:1.25° x 1.25° from 0E to 358.75E and 90N to 90S (288 x 145 Longitude/Latitude)
+- time:3 hour
