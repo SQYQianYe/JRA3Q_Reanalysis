@@ -18,9 +18,9 @@ do
             "0_0_0.tmp-pres-an-ll125" "0_1_0.spfh-pres-an-ll125" \
             "0_1_1.rh-pres-an-ll125" "0_2_2.ugrd-pres-an-ll125" \
             "0_2_3.vgrd-pres-an-ll125" "0_2_8.vvel-pres-an-ll125" \
-            # "0_3_5.hgt-pres-an-ll125" "0_0_7.depr-pres-an-ll125" \
-            # "0_2_12.relv-pres-an-ll125" "0_2_13.reld-pres-an-ll125" \
-            # "0_2_4.strm-pres-an-ll125" "0_2_5.vpot-pres-an-ll125"
+            "0_3_5.hgt-pres-an-ll125" "0_0_7.depr-pres-an-ll125" \
+            "0_2_12.relv-pres-an-ll125" "0_2_13.reld-pres-an-ll125" \
+            "0_2_4.strm-pres-an-ll125" "0_2_5.vpot-pres-an-ll125"
         )
 
         # Determine the end day of the month to handle February and leap years

@@ -15,16 +15,16 @@ for year in {1970..1978}; do
         # Define all variable codes and their respective GRIB variable names
         variables=(
             "0_0_22.ttswr6have-pres-fc-ll125" "0_0_23.ttlwr6have-pres-fc-ll125"
-            # "0_194_1.adhr6have-pres-fc-ll125" "0_194_12.admr6have-pres-fc-ll125"
-            # "0_194_13.lrgmr6have-pres-fc-ll125" "0_194_14.cnvmr6have-pres-fc-ll125"
-            # "0_194_15.vdfmr6have-pres-fc-ll125" "0_194_18.adua6have-pres-fc-ll125"
-            # "0_194_19.adva6have-pres-fc-ll125" "0_194_2.lrghr6have-pres-fc-ll125"
-            # "0_194_20.cnvua6have-pres-fc-ll125" "0_194_21.cnvva6have-pres-fc-ll125"
-            # "0_194_22.vdfua6have-pres-fc-ll125" "0_194_23.vdfva6have-pres-fc-ll125"
-            # "0_194_24.gwdoua6have-pres-fc-ll125" "0_194_25.gwdova6have-pres-fc-ll125"
-            # "0_194_26.gwdnua6have-pres-fc-ll125" "0_194_27.gwdnva6have-pres-fc-ll125"
-            # "0_194_3.cnvhr6have-pres-fc-ll125" "0_194_4.vdfhr6have-pres-fc-ll125"
-            # "0_3_27.umflx6have-pres-fc-ll125"
+            "0_194_1.adhr6have-pres-fc-ll125" "0_194_12.admr6have-pres-fc-ll125"
+            "0_194_13.lrgmr6have-pres-fc-ll125" "0_194_14.cnvmr6have-pres-fc-ll125"
+            "0_194_15.vdfmr6have-pres-fc-ll125" "0_194_18.adua6have-pres-fc-ll125"
+            "0_194_19.adva6have-pres-fc-ll125" "0_194_2.lrghr6have-pres-fc-ll125"
+            "0_194_20.cnvua6have-pres-fc-ll125" "0_194_21.cnvva6have-pres-fc-ll125"
+            "0_194_22.vdfua6have-pres-fc-ll125" "0_194_23.vdfva6have-pres-fc-ll125"
+            "0_194_24.gwdoua6have-pres-fc-ll125" "0_194_25.gwdova6have-pres-fc-ll125"
+            "0_194_26.gwdnua6have-pres-fc-ll125" "0_194_27.gwdnva6have-pres-fc-ll125"
+            "0_194_3.cnvhr6have-pres-fc-ll125" "0_194_4.vdfhr6have-pres-fc-ll125"
+            "0_3_27.umflx6have-pres-fc-ll125"
         )
 
         # Determine the last day of the month to handle February and leap years
