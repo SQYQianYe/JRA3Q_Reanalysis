@@ -20,4 +20,4 @@
 - time:3 hour
 
 ## Notice
-- Please note that the data provided covers the time span from 1948 to 2023. For downloading data from after September 1947 or for the year 2024 and beyond, modifications to the year loop within the shell scripts will be necessary.
+- The downloaded data covers the period from 1948 to 2023. To obtain data for the months of September to December in 1947 or from January 2024 to the present, you will need to modify the year loop in the shell (.sh) scripts accordingly.
