@@ -4,7 +4,7 @@ opts="-N"
 cert_opt="--no-check-certificate"
 
 # Loop through the years 1948 to 1978
-for year in {1948..1978}
+for year in {1948..2023}
 do
     # Loop through each month
     for month in {01..12}

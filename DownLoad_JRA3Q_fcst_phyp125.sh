@@ -6,7 +6,7 @@ cert_opt="--no-check-certificate"
 # cert_opt="--no-check-certificate"
 
 # Loop through the years and months
-for year in {1970..1978}; do
+for year in {1970..2023}; do
     for month in {01..12}; do
         # Construct the month_year string used in the base URL
         month_year="${year}${month}"
