@@ -18,3 +18,6 @@
 ### Data Resolution
 - grid:1.25° x 1.25° from 0E to 358.75E and 90N to 90S (288 x 145 Longitude/Latitude)
 - time:3 hour
+
+## Notice
+- Please note that the data provided covers the time span from 1948 to 2023. For downloading data from after September 1947 or for the year 2024 and beyond, modifications to the year loop within the shell scripts will be necessary.
