@@ -25,7 +25,7 @@ Below is the list of variable codes used in the script `DownLoad_JRA3Q_anl125_Pr
 | `0_3_1.prmsl-msl-an-Ll125`       | `Mean sea level pressure`      | Mean sea level pressure                                    |
 
 
-**Note:** The saturated vapor pressure used to calculate dewpoint depression (or deficit) and relative humidity from specific humidity is determined by the temperature, as described in the provided documentation.
+**Note:** The saturated vapor pressure used to calculate dewpoint depression (or deficit) and relative humidity from specific humidity is determined by the temperature.
 ## DownLoad_JRA3Q_anl_surf125.sh
 - download JRA-3Q 1.25 degree surface analysis fields (anl_surf125)
 
