@@ -51,6 +51,29 @@ Below is the list of variable codes used in the script `DownLoad_JRA3Q_anl_surf1
 ## DownLoad_JRA3Q_fcst_phyp125.sh
 - download JRA-3Q 1.25 degree isobaric average diagnostic fields (fcst_phyp125)
 
+Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phyp125.sh`, along with their respective variable names and descriptions based on the provided images and the official JRA-3Q documentation.
+| Variable Code in Script              | Variable Name                         | Description(units)                                        |
+|--------------------------------------|---------------------------------------|------------------------------------------------------------|
+| 0_0_22.ttswr6have-pres-fc-Ll125   | Temperature tendency by short-wave    | Temperature tendency due to short-wave radiation (K s^-1)  |
+| 0_0_23.ttlwr6have-pres-fc-Ll125   | Temperature tendency by long-wave     | Temperature tendency due to long-wave radiation (K s^-1)   |
+| 0_194_1.adhr6have-pres-fc-LL125   | Adiabatic heating rate                | Adiabatic heating rate (K s^-1)                           |
+| 0_194_12.admr6have-pres-fc-LL125  | Adiabatic moistening rate            | Adiabatic moistening rate (kg kg^-1 s^-1)                |
+| 0_194_13.Lrgmr6have-pres-fc-Ll125 | Large scale moistening rate          | Large scale moistening rate (kg kg^-1 s^-1)               |
+| 0_194_14.cnvmr6have-pres-fc-ll125 | Convective moistening rate           | Convective moistening rate (kg kg^-1 s^-1)               |
+| 0_194_15.vdfmr6have-pres-fc-LL125 | Vertical diffusion moistening rate   | Vertical diffusion moistening rate (kg kg^-1 s^-1)        |
+| 0_194_18.adua6have-pres-fc-Ll125  | Adiabatic zonal acceleration         | Adiabatic zonal acceleration (m s^-2)                    |
+| 0_194_19.adva6have-pres-fc-Ll125  | Adiabatic meridional acceleration    | Adiabatic meridional acceleration (m s^-2)               |
+| 0_194_2.Lrghr6have-pres-fc-Ll125  | Large scale condensation heating rate | Large scale condensation heating rate (K s^-1)          |
+| 0_194_20.cnvua6have-pres-fc-Ll125 | Convective zonal acceleration        | Convective zonal acceleration (m s^-2)                   |
+| 0_194_21.cnvva6have-pres-fc-Ll125 | Convective meridional acceleration   | Convective meridional acceleration (m s^-2)              |
+| 0_194_22.vdfua6have-pres-fc-Ll125 | Vertical diffusion zonal acceleration| Vertical diffusion zonal acceleration (m s^-2)         |
+| 0_194_23.vdfva6have-pres-fc-LL125 | Vertical diffusion meridional acceleration | Vertical diffusion meridional acceleration (m s^-2)    |
+| 0_194_24.gwdoua6have-pres-fc-LL125| Orographic gravity wave zonal acceleration | Orographic gravity wave zonal acceleration (m s^-2)  |
+| 0_194_25.gwdova6have-pres-fc-LL125| Orographic gravity wave meridional acceleration | Orographic gravity wave meridional acceleration (m s^-2) |
+| 0_194_26.gwdnua6have-pres-fc-LL125| Non-orographic gravity wave zonal acceleration | Non-orographic gravity wave zonal acceleration (m s^-2)|
+| 0_194_27.gwdnva6have-pres-fc-Ll125| Non-orographic gravity wave meridional acceleration | Non-orographic gravity wave meridional acceleration (m s^-2) |
+| 0_3_27.umfLx6have-pres-fc-LL125  | Updraught mass flux                   | Updraught mass flux (kg m^-2 s^-1)                       |
+
 ## DownLoad_JRA3Q_fcst_phy2m125.sh
 - download JRA-3Q 1.25 degree two-dimensional average diagnostic fields (fcst_phy2m125)
 
