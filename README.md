@@ -9,21 +9,21 @@
 Below is the list of variable codes used in the script `DownLoad_JRA3Q_anl125_Pressure_Level.sh`, along with their respective variable names
 
 
-| Variable Code in Script          | Variable Name               | Description                                                  |
+| Variable Code in Script          | Variable Name               | Description(units)                                            |
 |-----------------------------------|-----------------------------|--------------------------------------------------------------|
-| 0_0_0.tmp2m-hgt-an-LL125      | 2m temperature              | Temperature at 2 meters above the ground (K)               |
-| 0_0_2.pot-sfc-an-L1125        | Potential temperature       | Potential temperature at the surface                       |
-| 0_0_7.depr2m-hgt-an-L1125     | Dewpoint depression         | Dewpoint depression at 2 meters (K)                        |
-| 0_194_6.snleng-sfc-an-L1125   | Snow depth                  | Snow depth at the surface                                  |
-| 0_194_7.snlh20-sfc-an-L1125   | Snow water equivalent       | Snow water equivalent at the surface                       |
-| 0_1_0.spfh2m-hgt-an-L1125     | Specific humidity           | Specific humidity at 2 meters                              |
-| 0_1_1.rh2m-hgt-an-L1125       | Relative humidity          | Relative humidity at 2 meters (%)                          |
-| 0_1_13.weasd-sfc-an-L1125     | Precipitable water          | Precipitable water at the surface                          |
-| 0_1_64.tciwv-col-an-11125    | Total column integrated water vapor | Total column integrated water vapor                     |
-| 0_3_0.pres-sfc-an-L1125       | Surface pressure            | Surface pressure                                          |
-| 0_2_3.vgrd10m-hgt-an-L1125    | Vertical wind gradient      | Vertical gradient of wind at 10 meters                    |
-| 0_2_2.ugrd10m-hgt-an-L1125    | U-component of wind         | U-component of wind at 10 meters (m/s)                     |
-| 0_3_1.prmsl-msl-an-L1125      | Mean sea level pressure    | Mean sea level pressure        |
+| 0_0_0.tmp2m-hgt-an-LL125         | 2m temperature              | Temperature at 2 meters above the ground (K)               |
+| 0_0_2.pot-sfc-an-L1125          | Potential temperature       | Potential temperature at the surface (K)                    |
+| 0_0_7.depr2m-hgt-an-L1125       | Dewpoint depression         | Dewpoint depression at 2 meters (K)                         |
+| 0_194_6.snleng-sfc-an-L1125     | Snow depth                  | Snow depth at the surface (unit not specified)              |
+| 0_194_7.snlh20-sfc-an-L1125     | Snow water equivalent       | Snow water equivalent at the surface (unit not specified)    |
+| 0_1_0.spfh2m-hgt-an-L1125       | Specific humidity           | Specific humidity at 2 meters (kg kg^-1)                   |
+| 0_1_1.rh2m-hgt-an-L1125         | Relative humidity          | Relative humidity at 2 meters (%)                           |
+| 0_1_13.weasd-sfc-an-L1125       | Precipitable water          | Precipitable water at the surface (unit not specified)      |
+| 0_1_64.tciwv-col-an-11125       | Total column integrated water vapor | Total column integrated water vapor (unit not specified) |
+| 0_3_0.pres-sfc-an-L1125         | Surface pressure            | Surface pressure (unit not specified)                       |
+| 0_2_3.vgrd10m-hgt-an-L1125      | Vertical wind gradient      | Vertical gradient of wind at 10 meters (m s^-1)            |
+| 0_2_2.ugrd10m-hgt-an-L1125      | U-component of wind         | U-component of wind at 10 meters (m s^-1)                  |
+| 0_3_1.prmsl-msl-an-L1125        | Mean sea level pressure    | Mean sea level pressure (hPa)                               |
 
 
 **Note:** The saturated vapor pressure used to calculate dewpoint depression (or deficit) and relative humidity from specific humidity is determined by the temperature.
