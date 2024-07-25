@@ -110,7 +110,7 @@ Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phy2
 
 ## Data Resolution
 - grid:1.25° x 1.25° from 0E to 358.75E and 90N to 90S (288 x 145 Longitude/Latitude)
-- time:3 hour
+- time: 3 hour
 - level(p125): 45(0.01 to 1000 hPa) isobaric analysis fields
 - level(surf125): 1 (Ground or water surface) or (Nominal top of the atmosphere)
   
