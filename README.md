@@ -30,7 +30,7 @@ Below is the list of variable codes used in the script `DownLoad_JRA3Q_anl125_Pr
 ## DownLoad_JRA3Q_anl_surf125.sh
 - download JRA-3Q 1.25 degree surface analysis fields (anl_surf125)
   
-Below is the list of variable codes used in the script `DownLoad_JRA3Q_anl_surf125.sh`, along with their respective variable names and descriptions based on the provided images and the official JRA-3Q documentation.
+Below is the list of variable codes used in the script `DownLoad_JRA3Q_anl_surf125.sh`, along with their respective variable names.
 
 | Variable Code in Script          | Variable Name               | Description(units)                                         |
 |-----------------------------------|-----------------------------|--------------------------------------------------------------|
@@ -51,7 +51,7 @@ Below is the list of variable codes used in the script `DownLoad_JRA3Q_anl_surf1
 ## DownLoad_JRA3Q_fcst_phyp125.sh
 - download JRA-3Q 1.25 degree isobaric average diagnostic fields (fcst_phyp125)
 
-Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phyp125.sh`, along with their respective variable names and descriptions based on the provided images and the official JRA-3Q documentation.
+Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phyp125.sh`, along with their respective variable names.
 | Variable Code in Script              | Variable Name                         | Description(units)                                        |
 |--------------------------------------|---------------------------------------|------------------------------------------------------------|
 | 0_0_22.ttswr6have-pres-fc-Ll125   | Temperature tendency by short-wave    | Temperature tendency due to short-wave radiation (K s^-1)  |
@@ -77,7 +77,7 @@ Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phyp
 ## DownLoad_JRA3Q_fcst_phy2m125.sh
 - download JRA-3Q 1.25 degree two-dimensional average diagnostic fields (fcst_phy2m125)
   
-Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phy2m125.sh`, along with their respective variable names and descriptions based on the provided images and the official JRA-3Q documentation.
+Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phy2m125.sh`, along with their respective variable names.
 | Variable Code in Script              | Variable Name                         | Description(units)                                        |
 |--------------------------------------|---------------------------------------|------------------------------------------------------------|
 | 0_0_10.Lhtfl1have-sfc-fc-Ll125    | Latent heat net flux                   | Latent heat net flux (W m^-2)                             |
