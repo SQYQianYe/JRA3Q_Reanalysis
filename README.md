@@ -78,6 +78,35 @@ Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phyp
 - download JRA-3Q 1.25 degree two-dimensional average diagnostic fields (fcst_phy2m125)
   
 Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phy2m125.sh`, along with their respective variable names and descriptions based on the provided images and the official JRA-3Q documentation.
+| Variable Code in Script              | Variable Name                         | Description(units)                                        |
+|--------------------------------------|---------------------------------------|------------------------------------------------------------|
+| 0_0_10.Lhtfl1have-sfc-fc-Ll125    | Latent heat net flux                   | Latent heat net flux (W m^-2)                             |
+| 0_0_11.shtfl1have-sfc-fc-Ll125    | Sensible heat net flux                 | Sensible heat net flux (W m^-2)                          |
+| 0_194_28.fgsu1have-sfc-fc-Ll125   | Convective precipitation rate          | Convective precipitation rate (kg m^-2 s^-1)              |
+| 0_194_29.fgsv1have-sfc-fc-Ll125   | Total precipitation rate               | Total precipitation rate (kg m^-2 s^-1)                   |
+| 0_194_30.fglu1have-sfc-fc-Ll125   | Large scale precipitation rate         | Large scale precipitation rate (kg m^-2 s^-1)             |
+| 0_194_31.fglv1have-sfc-fc-Ll125   | Total snowfall rate water equivalent   | Total snowfall rate water equivalent (kg m^-2 s^-1)       |
+| 0_194_8.tuwv1have-col-fc-Ll125    | Vertically integrated zonal water vapour flux | Vertically integrated zonal water vapour flux (kg m^-1 s^-1) |
+| 0_194_9.tvwv1have-col-fc-Ll125    | Vertically integrated meridional water vapour flux | Vertically integrated meridional water vapour flux (kg m^-1) |
+| 0_1_37.cprat1have-sfc-fc-Ll125   | Evaporation rate                       | Evaporation rate (kg m^-2 s^-1)                           |
+| 0_1_52.tprate1have-sfc-fc-ll125  | Momentum flux, u-component             | Momentum flux, u-component (unit not specified)           |
+| 0_1_53.tsrwe1have-sfc-fc-Ll125   | Momentum flux, v-component             | Momentum flux, v-component (unit not specified)           |
+| 0_1_54.Lsprate1have-sfc-fc-ll125 | Pressure                             | Pressure (Pa)                                             |
+| 0_2_17.uflx1have-sfc-fc-Ll125    | Downward short-wave radiation flux     | Downward short-wave radiation flux (W m^-2)                 |
+| 0_2_18.vflx1have-sfc-fc-Ll125    | Upward short-wave radiation flux       | Upward short-wave radiation flux (W m^-2)                 |
+| 0_3_0.pres1have-sfc-fc-Ll125     | Downward long-wave radiation flux      | Downward long-wave radiation flux (W m^-2)                 |
+| 0_4_52.dswrfcs1have-sfc-fc-Ll125| Downward short-wave radiation flux, clear sky | Downward short-wave radiation flux, clear sky (W m^-2)   |
+| 0_4_53.uswrfcs1have-sfc-fc-ll125| Upward short-wave radiation flux, clear sky | Upward short-wave radiation flux, clear sky (W m^-2)     |
+| 0_4_53.uswrfcs1have-toa-fc-Ll125| Downward long-wave radiation flux, clear sky | Downward long-wave radiation flux, clear sky (W m^-2)   |
+| 0_4_7.dswrf1have-sfc-fc-Ll125   | Upward long-wave radiation flux       | Upward long-wave radiation flux (W m^-2)                   |
+| 0_4_8.uswrf1have-sfc-fc-Ll125   | Net long-wave radiation flux          | Net long-wave radiation flux (W m^-2)                      |
+| 0_5_3.dLwrf1have-sfc-fc-LL125   | Downward long-wave radiation flux, clear sky | Downward long-wave radiation flux, clear sky (W m^-2) |
+| 0_5_4.ulwrf1have-sfc-fc-Ll125   | Upward long-wave radiation flux, clear sky | Upward long-wave radiation flux, clear sky (W m^-2)    |
+| 0_5_6.nlwrcs1have-toa-fc-Ll125  | Net long-wave radiation flux, clear sky | Net long-wave radiation flux, clear sky (W m^-2)        |
+| 0_5_8.dlwrfcs1have-sfc-fc-ll125 | Zonal momentum flux by short gravity wave | Zonal momentum flux by short gravity wave (unit not specified) |
+| 0_194_28.fgsu1have-sfc-fc-Ll125 | Meridional momentum flux by short gravity wave | Meridional momentum flux by short gravity wave (unit not specified) |
+| 0_194_30.fglu1have-sfc-fc-Ll125 | Zonal momentum flux by long gravity wave | Zonal momentum flux by long gravity wave (unit not specified) |
+| 0_194_31.fglv1have-sfc-fc-Ll125 | Meridional momentum flux by long gravity wave | Meridional momentum flux by long gravity wave (unit not specified) |
 
 ## Data Resolution
 - grid:1.25° x 1.25° from 0E to 358.75E and 90N to 90S (288 x 145 Longitude/Latitude)
