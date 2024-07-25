@@ -113,7 +113,11 @@ Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phy2
 - time:3 hour
 - level(p125): 45(0.01 to 1000 hPa) isobaric analysis fields
 - level(surf125): 1 (Ground or water surface) or (Nominal top of the atmosphere)
-
+  
+### Uasage example
+```bash
+bash DownLoad_JRA3Q_anl_surf125.sh
+```
 ## Notice
 - The downloaded data covers the period from 1948 to 2023. To obtain data for the months of September to December in 1947 or from January 2024 to the present, you will need to modify the year loop in the shell (.sh) scripts accordingly.
 
