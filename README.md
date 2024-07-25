@@ -76,6 +76,8 @@ Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phyp
 
 ## DownLoad_JRA3Q_fcst_phy2m125.sh
 - download JRA-3Q 1.25 degree two-dimensional average diagnostic fields (fcst_phy2m125)
+  
+Below is the list of variable codes used in the script `DownLoad_JRA3Q_fcst_phy2m125.sh`, along with their respective variable names and descriptions based on the provided images and the official JRA-3Q documentation.
 
 ## Data Resolution
 - grid:1.25° x 1.25° from 0E to 358.75E and 90N to 90S (288 x 145 Longitude/Latitude)
